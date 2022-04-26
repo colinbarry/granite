@@ -38,7 +38,7 @@ To specify the number of columns, use the CSS variable `--num-columns` on the ro
 ```js
 import Granite from './granite';
 new Granite({
-  el: el,
+  el: document.getElementById('app'),
   childSelector: '.cell',
   columnClassName: 'granite-column',
   gridClassName: 'granite',
@@ -48,6 +48,8 @@ new Granite({
 # Demo
 
 Run the demo with `npm run dev`. This demo uses images from savee.com.
+
+https://teal-bubblegum-1d328f.netlify.app/
 
 # Distribution
 
