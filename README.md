@@ -52,3 +52,7 @@ Run the demo with `npm run dev`. This demo uses images from savee.com.
 # Distribution
 
 Build for distribution with `npm run build`.
+
+# License
+
+Granite is released under the MIT license.
