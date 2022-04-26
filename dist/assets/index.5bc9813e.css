@@ -1,0 +1,1 @@
+.granite{display:flex;gap:10px;--num-columns: 1}@media (min-width: 500px){.granite{--num-columns: 2}}@media (min-width: 800px){.granite{--num-columns: 4}}.cell{width:100%;border-radius:1rem;overflow:hidden}.granite-column{display:flex;flex-direction:column;gap:10px}.granite-column img{width:100%;vertical-align:top}
