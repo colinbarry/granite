@@ -17,7 +17,7 @@ interface Options {
   gridClassName?: string;
 }
 
-export default class Masonry {
+export default class Granite {
   private el: HTMLElement;
   private numColumns = 0;
   private options: Options;

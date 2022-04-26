@@ -15,7 +15,7 @@ const debounce = (f, ms = 30) => {
     }
   };
 };
-class Masonry {
+class Granite {
   constructor(options) {
     __publicField(this, "el");
     __publicField(this, "numColumns", 0);
@@ -65,4 +65,4 @@ class Masonry {
     }
   }
 }
-export { Masonry as default };
+export { Granite as default };

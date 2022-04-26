@@ -4,11 +4,21 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc --emitDeclarationOnly",
     "preview": "vite preview"
   },
   "devDependencies": {
     "typescript": "^4.5.4",
     "vite": "^2.9.5"
-  }
+  },
+    "files": ["dist"],
+    "types": "./dist/granite.d.ts",
+    "main": "./dist/granite.umd.js",
+    "module": "./dist/granite.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/granite.es.js",
+            "require": "./dist/granite.umd.js"
+        }
+    }
 }
